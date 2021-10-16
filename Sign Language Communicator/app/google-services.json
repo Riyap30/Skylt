@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573255954833",
+    "project_id": "signly-communicator",
+    "storage_bucket": "signly-communicator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573255954833:android:544e642c61ede30474aa30",
+        "android_client_info": {
+          "package_name": "com.example.audiotosign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573255954833-0u3jnh4po81a00mru5uhlk0hugq78d3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF29LHQWGvxkT7hr8Xlt4omkOfMbtsCP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573255954833-0u3jnh4po81a00mru5uhlk0hugq78d3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

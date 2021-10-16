@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".audio">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="4000dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bg4" />
+
+    <ImageView
+        android:id="@+id/imageVieww"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logooo" />
+
+    <ImageView
+        android:id="@+id/iv_mic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/ic_baseline_mic_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_speech_to_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:text="Tap to speak"
+        app:layout_constraintEnd_toEndOf="@+id/iv_mic"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/iv_mic"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mic" />
+
+
+</RelativeLayout>
