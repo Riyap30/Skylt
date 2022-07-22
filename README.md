@@ -18,6 +18,4 @@ accessible, easy to use and has the potential to bridge the communication
 gap and resolve the current educational limitations.
 
 
-## The flow goes as- 
 
-![image](https://user-images.githubusercontent.com/66573570/137598398-1b2c06dd-0a9b-4016-8c84-3d9c861fde83.png)
